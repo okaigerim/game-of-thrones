@@ -11,7 +11,7 @@ export const Header = () => {
             When people ask you what happened here, tell them the North
             remembers.
           </p>
-          <Link to="/main" className="hero-button">
+          <Link to="/characters" className="hero-button">
             Characters
           </Link>
         </div>

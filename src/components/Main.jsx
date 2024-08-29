@@ -18,7 +18,7 @@ export const Main = () => {
   }, []);
 
   const handleCardClick = (id) => {
-    navigate(`/search/${id}`);
+    navigate(`/character/${id}`);
   };
 
   useEffect(() => {

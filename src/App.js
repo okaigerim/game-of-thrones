@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Header />} />
-        <Route path="/main" element={<Main />} />
-        <Route path="/search/:id" element={<Search />} />
+        <Route path="/characters" element={<Main />} />
+        <Route path="/character/:id" element={<Search />} />
       </Routes>
     </Router>
   );
