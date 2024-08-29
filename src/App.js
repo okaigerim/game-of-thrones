@@ -5,8 +5,8 @@ import { Main } from './components/Main';
 import { Search } from './components/Search';
 
 function App() {
-  return (
-    <Router>
+  return  (
+    <Router basename="/game-of-thrones">
       <Navbar />
       <Routes>
         <Route path="/" element={<Header />} />
